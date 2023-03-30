@@ -1,0 +1,10 @@
+name: RLEnv
+channels:
+  - defaults
+dependencies:
+  - gym-classic_control
+  - pytorch
+  - pip
+  - ipython
+  - matplotlib
+prefix: /Users/davidstanley/opt/anaconda3/envs/RLEnv
