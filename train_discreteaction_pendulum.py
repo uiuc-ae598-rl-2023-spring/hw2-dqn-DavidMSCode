@@ -170,11 +170,11 @@ def optimize_model():
     criterion = nn.SmoothL1Loss()
     loss = criterion(state_action_values,
                      expected_state_action_values.unsqueeze(1))
-
-    # Optimize the model
-    loss.backward()
     # In-place gradient clipping
     torch.nn.utils.clip_grad_value_(Q_net.parameters(), 100)
+    # Optimize the model
+    loss.backward()
+    
     optimizer.step()
 
 
