@@ -1,0 +1,9 @@
+name: RLEnv
+channels:
+  - defaults
+dependencies:
+  - pytorch
+  - pip
+  - ipython
+  - matplotlib
+prefix: /Users/davidstanley/opt/anaconda3/envs/RLEnv
