@@ -2,7 +2,6 @@ name: RLEnv
 channels:
   - defaults
 dependencies:
-  - gym-classic_control
   - pytorch
   - pip
   - ipython
